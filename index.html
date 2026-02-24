@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unique Orb | Game Studio</title>
-    <style>
-        body { background-color: #0a0a0a; color: #fff; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; }
-        .container { border: 1px solid #333; padding: 3rem; border-radius: 20px; background: rgba(255,255,255,0.02); }
-        h1 { font-size: 3rem; margin-bottom: 0.5rem; letter-spacing: -1px; }
-        .orb-text { color: #8e44ad; font-weight: bold; }
-        p { color: #888; font-size: 1.2rem; }
-        .badge { display: inline-block; padding: 5px 15px; background: #1a1a1a; border: 1px solid #8e44ad; border-radius: 20px; font-size: 0.8rem; margin-top: 20px; }
-    </style>
+    <title>Unique Orb | Coming Soon</title>
+    <!-- Modern Minimalist Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
-    <h1>Unique <span class="orb-text">Orb</span></h1>
-    <p>Game Studio</p>
-    <div class="badge">Orb SDK: (Coming Soon)</div>
-</div>
+    <div class="coming-soon-container">
+        <!-- Glowing background effect behind the logo -->
+        <div class="glow-bg"></div>
+
+        <div class="content-wrapper">
+            <div class="logo-wrapper">
+                <img src="logo.png" alt="Unique Orb Logo" class="main-logo"
+                    onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'40\' fill=\'%23FF8C00\'/></svg>'">
+            </div>
+
+            <h1 class="brand-title">Unique <span class="highlight">Orb</span></h1>
+            <h2 class="subtitle">Game Studio</h2>
+
+            <div class="divider"></div>
+
+            <p class="status-message">Something extraordinary is igniting.<br>We are forging our new digital home.</p>
+
+            <div class="badge-container">
+                <span class="badge pulse">Coming Soon</span>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
